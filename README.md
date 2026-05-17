@@ -15,3 +15,20 @@
 - **SDK**: openai-go
 
 ## 项目结构
+ai-agent-go/
+├── 01-raw-http/        # 用 net/http 手写请求
+├── 02-streaming/       # openai-go SDK + 流式输出
+└── README.md
+
+## 快速开始
+
+```bash
+export DEEPSEEK_API_KEY=your_key_here
+go run ./01-raw-http/
+```
+
+## 学习笔记
+
+- [ ] Anthropic — Building Effective Agents (前两节)
+- [ ] 理解 streaming SSE 协议
+- [ ] Tool Calling 原理
